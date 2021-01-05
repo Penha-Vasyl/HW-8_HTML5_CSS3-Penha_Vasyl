@@ -14,7 +14,7 @@ h2 {
   font-family: 'Baloo Bhai 2';
   font-weight: 800;
   font-size: 24px;
-  margin-top: 3vh;
+  margin-top: 25px;
 }
 
 h3 {
@@ -37,7 +37,7 @@ p {
 .block-menu {
   margin: 1.5vw 0vw 1.5vw 2vw;
   width: 9.5vw;
-  height: 98.5vh;
+  height: 852px;
   background: #000000;
   border-radius: 1.5vw;
   display: flex;
@@ -52,8 +52,8 @@ p {
   flex-direction: column;
   align-items: center; 
   justify-content: space-between;
-  height: 60vh;
-  margin-top: 5vh;
+  height: 510px;
+  margin-top: 55px;
 }
 
 .menu-icon {
@@ -64,11 +64,11 @@ p {
 .logo {
   width: 47px;
   height: 50px;
-  margin-bottom: 4vh;  
+  margin-bottom: 5px;  
 }
 
 .exit {
-  margin-bottom: 4.5vh;
+  margin-bottom: 40px;
   justify-content:flex-end;
 }
 
@@ -91,7 +91,7 @@ p {
   display: flex;
   justify-content: space-between;
   align-items: flex-end;
-  height: 20vh;
+  height: 160px;
 }
 
 .header-content {
@@ -104,8 +104,8 @@ p {
 }
 
 .image-guy {
-  height: 24vh;
-  margin-top: -1.5vh;
+  height: 191px;
+  margin-top: -20px;
   margin-bottom: 0;
   display: flex;
   align-items: flex-end;
@@ -116,12 +116,12 @@ p {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-top: 2vh;
+  margin-top: 24px;
 }
 
 .spanish-block {  
   width: 35.5vw;
-  height: 10vh;
+  height: 80px;
   background: #F5F5F7;
   border-radius: 1vw;
   display: flex;
@@ -135,14 +135,14 @@ p {
 }
 
 .courses-name p {
-  margin-top: -1vh;
-  margin-bottom: 2vh;
+  margin-top: -10px;
+  margin-bottom: 20px;
 }
 
 .block-courses-icon {
-  width: 8.5vh;
-  height: 8.5vh;
-  margin: 1vh;
+  width: 64px;
+  height: 64px;
+  margin: 8px;
   background: #FFFFFF;
   border-radius: 1vw;
   display: flex;
@@ -168,12 +168,12 @@ p {
   margin-left: -80%;
 }
 
-.courses-bottom {
-  width: 8.5vw;
-  height: 6vh;
-  margin: 2.5vh;
+.courses-button {
+  width: 120px;
+  height: 40px;
+  margin: 20px 1.5vw;
   background: #000000;
-  border-radius: 1vh;
+  border-radius: 8px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -181,13 +181,15 @@ p {
   font-weight: bold;
   font-size: 13px;
   color: #FFFFFF;
+  outline: none;
+  border: none;
 }
 
-.courses-bottom:hover {
+.courses-button:hover {
   transform: scale(1.1);
 }
 
-.courses-bottom:active {
+.courses-button:active {
   background-color: gray;
 }
 
@@ -208,7 +210,7 @@ p {
 .courses-menu {
   display: flex;
   justify-content: flex-start;
-  margin-top: -3vh;
+  margin-top: -16px;
 }
 
 .courses-menu > h3 {
@@ -223,13 +225,13 @@ p {
 }
 
 .courses-wrapper {
-  height: 53vh;
+  height: 460px;
   overflow: hidden;
 }
 
 .courses-block {  
-  margin-top: 1vh;
-  height: 10vh;
+  margin-top: 16px;
+  height: 80px;
   background: #F5F5F7;
   border-radius: 1vw;
   display: flex;
@@ -250,7 +252,6 @@ p {
 
 .pages-2 {
   width: 31vw;
-  height: 90.5vh;
   margin: 4vw 5.5vw 1.5vw 0vw;
 }
 
@@ -262,9 +263,9 @@ p {
 
 .search-row {
   width: 21.5vw;
-  height: 5.5vh;
+  height: 43px;
   background: #F5F5F7;
-  border-radius: 1vh;
+  border-radius: 8px;
   display: flex;
   align-items: center;
   padding-left: 1vw;
@@ -296,9 +297,9 @@ p {
 }
 
 .courses-completed {
-  margin-top: 2vh;
+  margin-top: 18px;
   width: 9.7vw;
-  height: 12.5vh;
+  height: 96.5px;
   background: #F5F5F7;
   border-radius: 1vw;
   display: flex;
@@ -309,31 +310,35 @@ p {
 
 .courses-completed h2 {
   font-size: 64px;
-  margin:50% 0.5vh 50% 0;
+  margin:50% 11px 50% 0;
 }
 
 .courses-completed p {
-  line-height: 3vh;
+  line-height: 24px;
   font-size: 1.3vw;
+}
+
+.statistics {
+  margin-top: 40px;
 }
 
 .pages-2-courses-menu {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-top: 3vh;
+  margin-top: 16px;
 }
 
 .pages-2-courses-menu h3 {
-  margin-top: 3vh;
+  margin-top: 16px;
 }
 
 .courses-menu-button {
-  margin-top: -2vh;
-  width: 6.5vw;
-  height: 3.5vh;
+  margin-top: -20px;
+  width: 88px;
+  height: 32px;
   background: #F5F5F7;
-  border-radius: 1vh;
+  border-radius: 8px;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -350,18 +355,19 @@ p {
 
 .chart {
   width: 32vw;
-  height: 33vh;
+  height: auto;
+  margin-top: 27px;
 }
 
 .brain-block {
   width: 31vw;
-  height: 22vh;
+  height: 193px;
   background: #F5F5F7;
   border-radius: 1vw;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-top: 5vh;
+  margin-top: 49px;
 }
 
 .brain-block-content {
@@ -372,7 +378,7 @@ p {
 .brain-block-content p{
   font-size: 16px;
   line-height: 24px;
-  margin-top: -2vh;
+  margin-top: -20px;
 }
 
 .go-premium {
@@ -382,5 +388,6 @@ p {
 .brain {
   margin: auto;
   margin-right: 3.5vw;
-  width: 8vw;
+  width: 125px;
+  height: auto;
 }
